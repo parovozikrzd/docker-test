@@ -1,0 +1,11 @@
+version: "1"
+
+volumes:
+	web:
+sevices:
+	web-app1:
+		build:webapp1/
+		volumes:
+			- web:scripts/webapp/resources
+		ports:
+			- 8080:8080
