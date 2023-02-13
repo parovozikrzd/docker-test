@@ -1,7 +1,7 @@
 version: "1"
 
 volumes:
-	web:
+	- web:
 sevices:
 	web-app1:
 		build:webapp1/
